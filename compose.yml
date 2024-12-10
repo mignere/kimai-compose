@@ -21,6 +21,8 @@ services:
       - DATABASE_URL=mysql://kimai_user:kimai_password@DB-KIMAI:3306/kimai_db
     networks:
       - CONNECT
+    depends_on:
+      - DB-KIMAI
 
 volumes:
   KIMAI-DB-VOL:
