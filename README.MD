@@ -7,7 +7,7 @@
 2. jalanin compose
     * \# docker compose up 
 3. add user admin
-    * \# docker exec kimai-compose-KIMAI-1 /opt/kimai/bin/console kimai:user:create admin admin@example.com ROLE_SUPER_ADMIN
+    * \# docker exec _\<Kimai container name\>_ /opt/kimai/bin/console kimai:user:create admin admin@example.com ROLE_SUPER_ADMIN passwordmust8digit
 
 4. kimai timesheet ready di "http://localhost:80"
 
