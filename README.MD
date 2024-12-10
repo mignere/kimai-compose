@@ -8,3 +8,6 @@
     * \# docker compose up 
 3. add user admin
     * \# /opt/kimai/bin/console kimai:user:create admin admin@example.com ROLE_SUPER_ADMIN
+4. kimai timesheet ready di "http://localhost:80"
+
+![njirs](https://media.tenor.com/nCcU-GHv6MUAAAAM/electrocuted-spiderman.gif)
